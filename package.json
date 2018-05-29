@@ -1,0 +1,16 @@
+{
+  "name": "js-starters",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "0.0.1",
+  "description": "starter-packages",
+  "main": "index.js",
+  "repository": "https://github.com/PutziSan/js-starters.git",
+  "author": "Putzi San <putzisan@putzisan.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}

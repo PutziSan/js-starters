@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "name": "cra-starter",
+  "description": "starter for a common js-project",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+     "precommit": "lint-staged"
+},
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "^1.1.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,json,html,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
