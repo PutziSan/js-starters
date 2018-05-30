@@ -1,5 +1,5 @@
 {
-  "extends": ["react-app", "airbnb", "plugin:prettier/recommended"],
+  "extends": ["airbnb", "plugin:prettier/recommended"],
   "rules": {
     "import/prefer-default-export": 0,
     "function-paren-newline": ["error", "consistent"],
@@ -8,5 +8,9 @@
       "singleQuote": true,
       "trailingComma": "es5"
     }]
+  },
+  "env": {
+    "browser": true,
+    "jest": true
   }
 }

@@ -19,10 +19,12 @@ const App = () => (
   <JssAppProvider>
     <CssBaseline />
 
+    <Typography />
+
+    <Headline />
+
     <Fancy>
-      <Headline variant="headline">
-        42
-      </Headline>
+      <Headline variant="headline">42</Headline>
     </Fancy>
   </JssAppProvider>
 );

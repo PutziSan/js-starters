@@ -11,9 +11,7 @@ jss.options.insertionPoint = document.getElementById('jss-insertion-point');
 
 const JssAppProvider = props => (
   <JssProvider jss={jss} generateClassName={generateClassName}>
-    <React.Fragment>
-      {props.children}
-    </React.Fragment>
+    <React.Fragment>{props.children}</React.Fragment>
   </JssProvider>
 );
 
