@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.2.0",
+    "jss": "^9.8.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-jss": "^8.4.0",
+    "react-scripts-ts": "2.16.0",
+    "styled-components": "^3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.0.0",
+    "@types/node": "^10.3.0",
+    "@types/react": "^16.3.16",
+    "@types/react-dom": "^16.0.5",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.13.4",
+    "typescript": "^2.9.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,json,html,css,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
