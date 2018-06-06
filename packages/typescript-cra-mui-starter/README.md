@@ -8,5 +8,6 @@
 ## overwrite custom type
 https://stackoverflow.com/questions/42693836/typescript-custom-declaration-files-for-untyped-npm-modules
 
-## todo
-angefangen, muss weiter gemacht werden
+## upload with now
+[see tutorial](https://zeit.co/docs/examples/create-react-app)
+(in `package.json` `"now-start": "serve --single ./build",`)
