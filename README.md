@@ -6,6 +6,10 @@
 * add a TypeScript + a flow-test
 * add auth-functionality (login-form + login-state) for testing how a more complex app works
 * add firebase-test-app (including auth)
+* check [testcafe](https://github.com/DevExpress/testcafe) for UI- + browser-tests
 
 evtl außerdem:
 * add [storybooks](https://github.com/storybooks/storybook)
+
+## ToCheck
+* [dts-gen](https://github.com/Microsoft/dts-gen) : A TypeScript Definition File Generator (`.d.ts`-files) by Microsoft
