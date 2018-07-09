@@ -2,7 +2,8 @@
 
 [ts-jest](https://github.com/kulshekhar/ts-jest) => Anpassungen für jest dass typescript out of the box funktiogeht.
 
-> ! man muss `tsconfig.compilerOptions.jsx = "react"` setzen, da preserve nicht funktioniert.
+- man muss `tsconfig.compilerOptions.jsx = "react"` setzen, da preserve nicht funktioniert. [ts-jest#63](https://github.com/kulshekhar/ts-jest/issues/63) => scheint mit dem anderen nur zu gehen wenn man babel mit einsetzt
+- add `moduleNameMapper = ...` + `__mocks__/fileMock.js` for handlubg static assets (import PNG's und co) [siehe doku](https://jestjs.io/docs/en/webpack.html#handling-static-assets)
 
 ## tsconfig
 
@@ -42,5 +43,6 @@ Um Bilder importieren zu können musste ein custom_type hinzugefügt werden (sie
 
 > dts-gen is a tool that generates TypeScript definition files (.d.ts) from any JavaScript object. (...) `dts-gen` is meant to be a starting point for writing a high-quality definition file.
 
-##TSLint ([github](https://github.com/palantir/tslint/))
+## TSLint ([github](https://github.com/palantir/tslint/))
+
 Kann/sollte in zusammenhang mit [tslint-react](https://github.com/palantir/tslint-react) + [tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier)
