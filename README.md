@@ -13,3 +13,9 @@ evtl außerdem:
 
 ## ToCheck
 * [dts-gen](https://github.com/Microsoft/dts-gen) : A TypeScript Definition File Generator (`.d.ts`-files) by Microsoft
+
+## ToObserve
+* [material-components-web](https://github.com/material-components/material-components-web) + [official react-integration](https://github.com/material-components/material-components-web-react)
+    * sieht gut aus, allerdings scheint die integration mit SCSS und theming waaaaay too complex ;)
+    * material-ui sieht da einfach stabiler aus
+    * siehe auch [material-ui#6799](https://github.com/mui-org/material-ui/issues/6799) dazu
