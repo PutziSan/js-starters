@@ -1,5 +1,9 @@
 module.exports = {
+  setupTestFrameworkScriptFile: 'jest-enzyme',
+  // make sure to install an enzyme-adapter: https://github.com/FormidableLabs/enzyme-matchers/tree/master/packages/jest-environment-enzyme#readme
+  testEnvironment: 'enzyme',
   transform: {
+    // https://github.com/kulshekhar/ts-jest#supports-synthetic-modules => for default-imports "esModuleInterop"-flag in tsconfig must set to true
     '^.+\\.tsx?$': 'ts-jest'
   },
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$',

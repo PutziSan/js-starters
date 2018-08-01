@@ -1,9 +1,10 @@
 # js-starters
 
 ## ToDo's
+* check [mdx](https://github.com/mdx-js/mdx/releases)
 * add jest-testing
     * try using [kit-utilities](https://github.com/c8r/kit) ( => [`Cartesian`-Component](https://github.com/c8r/kit#cartesian) seems good)
-* add a TypeScript + a flow-test
+* add a flow-test
 * add auth-functionality (login-form + login-state) for testing how a more complex app works
 * add firebase-test-app (including auth)
 * check [testcafe](https://github.com/DevExpress/testcafe) for UI- + browser-tests
