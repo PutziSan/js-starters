@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json", // da ich es mit jest ausführe geht jest von ./ als [PROJECT_ROOT] aus, deswegen muss ./ hier stehen
+  "compilerOptions": {
+    "jsx": "react"
+  }
+}

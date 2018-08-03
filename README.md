@@ -1,5 +1,8 @@
 # js-starters
 
+next todo
+* add serve for checking that a build runs
+
 ## ToDo's
 * check [mdx](https://github.com/mdx-js/mdx/releases)
 * add jest-testing
@@ -20,3 +23,5 @@ evtl außerdem:
     * sieht gut aus, allerdings scheint die integration mit SCSS und theming waaaaay too complex ;)
     * material-ui sieht da einfach stabiler aus
     * siehe auch [material-ui#6799](https://github.com/mui-org/material-ui/issues/6799) dazu
+
+

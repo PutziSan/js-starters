@@ -9,14 +9,21 @@
     "no-relative-imports": false,
     "missing-jsdoc": false,
     "variable-name": [true, "allow-pascal-case"],
-    "typedef": [
-      true,
-      "call-signature",
-      "parameter",
-      "member-variable-declaration",
-      "arrow-parameter"
-    ],
+    "typedef": [true, "parameter", "member-variable-declaration"],
     "interface-name": [true, "never-prefix"],
-    "react-unused-props-and-state": false
+    "react-unused-props-and-state": false,
+    "prefer-object-spread": false,
+    "member-access": false,
+    "no-object-literal-type-assertion": false,
+    "no-multiline-string": false,
+    "no-any": {
+      "severity": "warning"
+    },
+    "no-console": {
+      "severity": "warning"
+    },
+    "prefer-type-cast": {
+      "severity": "warning"
+    }
   }
 }

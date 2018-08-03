@@ -1,20 +1,24 @@
 {
   "compilerOptions": {
+    "jsx": "preserve",
+
     "module": "commonjs",
     "moduleResolution": "node",
-    "jsx": "react",
-    "newLine": "LF",
-    "outDir": "./lib/",
     "target": "es5",
-    "sourceMap": true,
-    "declaration": true,
     "lib": ["es2017", "dom"],
+    "outDir": "./lib/",
+
+    "sourceMap": true,
+    "declaration": false,
+
+    "newLine": "LF",
+
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "esModuleInterop": true // https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-7.html => "esModuleInterop"
+    "esModuleInterop": true
   },
   "include": ["src/**/*"],
   "exclude": [".git", "node_modules"]

@@ -33,7 +33,15 @@
 
 - `"jsx": "react"` => JSX wird von typescript zu React.createElements... umgesetzt
 - `"jsx": "preserve"` => modul wird nicht in es5 transpiliert sondern in jsx-files, diese kann parcel wiederum aufnehmen und weiter verarbeiten.
-  für parcel funktioniert beides, aber nur `ts-jest` utnerstützt nur `react`
+  für parcel funktioniert beides, aber `ts-jest` unterstützt nur `react`
+  
+### esModuleInterop
+> [siehe typescript release-notes 2.7](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-7.html) => "esModuleInterop"
+
+Vorallem da ts-jest sonst mit [synthetic default imports (`allowSyntheticDefaultImports`)](https://github.com/kulshekhar/ts-jest#supports-synthetic-modules) nicht zurecht kommt. [siehe ts-jest doku](https://github.com/kulshekhar/ts-jest#supports-synthetic-modules)
+
+### [allowSyntheticDefaultImports](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+Sollte eher false sein da sonst eklige Probleme auftauchen können (siehe [esModuleInterop](#esModuleInterop) oben)
 
 ## custom types
 
